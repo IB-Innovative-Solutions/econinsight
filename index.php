@@ -3,7 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EconInsight - We Simplify Complexity</title>
+    <title>EconInsight Consultancy - Data-Driven Economic Insights & Strategic Analysis</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="EconInsight Consultancy provides comprehensive economic research, market analysis, social impact assessment, and financial analytics. Transform complex data into actionable insights for informed decision-making.">
+    <meta name="keywords" content="economic research, market analysis, social impact, financial analytics, data insights, strategic consulting, policy research, business intelligence">
+    <meta name="author" content="EconInsight Consultancy">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="EconInsight Consultancy - Data-Driven Economic Insights">
+    <meta property="og:description" content="Transform complex economic challenges into clear, actionable insights with our comprehensive research and analysis services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://econinsight.com">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:site_name" content="EconInsight Consultancy">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EconInsight Consultancy - Data-Driven Economic Insights">
+    <meta name="twitter:description" content="Transform complex economic challenges into clear, actionable insights with our comprehensive research and analysis services.">
+    <meta name="twitter:image" content="assets/img/logo.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#ff6b35">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://econinsight.com">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -20,8 +50,17 @@
                     <nav class="nav">
                         <ul class="nav-list">
                             <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
+                            <li class="dropdown">
+                                <a href="services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="economic-research">Economic Research</a></li>
+                                    <li><a href="market-analysis">Market Analysis</a></li>
+                                    <li><a href="social-impact">Social Impact</a></li>
+                                    <li><a href="financial-analytics">Financial Analytics</a></li>
+                                </ul>
+                            </li>
                             <li><a href="#approach">Approach</a></li>
+                            <li><a href="contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="search-icon">
@@ -44,10 +83,10 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1 class="hero-title">WE SIMPLIFY COMPLEXITY</h1>
-                    <button class="cta-button">Get in Touch</button>
+                    <a href="contact" class="cta-button">Get in Touch</a>
                 </div>
                 <div class="hero-graphic">
-                    <img src="assets/img/hero-about.jpg" alt="EconInsight Professional Services" class="hero-image">
+                    <img src="assets/img/side-view-businesswoman-showing-analytical-charts-her-male-coworker.jpg" alt="EconInsight Professional Services" class="hero-image">
                 </div>
             </div>
         </div>
@@ -64,7 +103,7 @@
                     </p>
                 </div>
                 <div class="about-graphic">
-                    <img src="assets/img/hero-about.jpg" alt="EconInsight Team and Services" class="about-image">
+                    <img src="assets/img/office-scene-close-up.jpg" alt="EconInsight Team and Services" class="about-image">
                 </div>
             </div>
             <div class="background-pattern"></div>
@@ -118,64 +157,120 @@
     <section class="insights">
         <div class="container">
             <h2 class="section-title">Insights</h2>
-            <div class="insights-grid">
-                <div class="insight-card">
-                    <div class="insight-icon">
-                        <div class="hexagon-group-small">
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                        </div>
-                    </div>
-                    <h3 class="insight-title">Understanding Shifting Markets</h3>
-                    <p class="insight-description">
-                        Navigate market volatility with data-driven insights and predictive analytics.
-                    </p>
+            <div class="insights-content">
+                <div class="insights-image">
+                    <img src="assets/img/office-scene-close-up.jpg" alt="EconInsight Team Working on Insights" class="insights-img">
                 </div>
-                <div class="insight-card">
-                    <div class="insight-icon">
-                        <div class="insight-icon-combined">
-                            <i class="fas fa-user-plus"></i>
+                <div class="insights-cards">
+                    <div class="insight-card">
+                        <div class="insight-icon">
                             <div class="hexagon-group-small">
+                                <div class="hexagon-small hexagon-orange"></div>
                                 <div class="hexagon-small hexagon-orange"></div>
                                 <div class="hexagon-small hexagon-orange"></div>
                                 <div class="hexagon-small hexagon-orange"></div>
                             </div>
                         </div>
+                        <h3 class="insight-title">Understanding Shifting Markets</h3>
+                        <p class="insight-description">
+                            Navigate market volatility with data-driven insights and predictive analytics.
+                        </p>
                     </div>
-                    <h3 class="insight-title">Assessing Social Impact of Programs</h3>
-                    <p class="insight-description">
-                        Measure and optimize the effectiveness of social initiatives and programs.
-                    </p>
-                </div>
-                <div class="insight-card">
-                    <div class="insight-icon">
-                        <div class="hexagon-group-small">
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
+                    <div class="insight-card">
+                        <div class="insight-icon">
+                            <div class="insight-icon-combined">
+                                <i class="fas fa-user-plus"></i>
+                                <div class="hexagon-group-small">
+                                    <div class="hexagon-small hexagon-orange"></div>
+                                    <div class="hexagon-small hexagon-orange"></div>
+                                    <div class="hexagon-small hexagon-orange"></div>
+                                </div>
+                            </div>
                         </div>
+                        <h3 class="insight-title">Assessing Social Impact of Programs</h3>
+                        <p class="insight-description">
+                            Measure and optimize the effectiveness of social initiatives and programs.
+                        </p>
                     </div>
-                    <h3 class="insight-title">Economic Trends & Policy Implications</h3>
-                    <p class="insight-description">
-                        Analyze economic patterns and their implications for policy development.
-                    </p>
-                </div>
-                <div class="insight-card">
-                    <div class="insight-icon">
-                        <div class="hexagon-group-small">
-                            <div class="hexagon-small hexagon-outline"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
-                            <div class="hexagon-small hexagon-orange"></div>
+                    <div class="insight-card">
+                        <div class="insight-icon">
+                            <div class="hexagon-group-small">
+                                <div class="hexagon-small hexagon-orange"></div>
+                                <div class="hexagon-small hexagon-orange"></div>
+                                <div class="hexagon-small hexagon-orange"></div>
+                                <div class="hexagon-small hexagon-orange"></div>
+                                <div class="hexagon-small hexagon-orange"></div>
+                            </div>
                         </div>
+                        <h3 class="insight-title">Economic Trends & Policy Implications</h3>
+                        <p class="insight-description">
+                            Analyze economic patterns and their implications for policy development.
+                        </p>
                     </div>
-                    <h3 class="insight-title">The Role of Data in Business Strategy</h3>
-                    <p class="insight-description">
-                        Leverage data analytics to inform strategic business decisions and growth.
-                    </p>
+                    <div class="insight-card">
+                        <div class="insight-icon">
+                            <div class="hexagon-group-small">
+                                <div class="hexagon-small hexagon-outline"></div>
+                                <div class="hexagon-small hexagon-orange"></div>
+                                <div class="hexagon-small hexagon-orange"></div>
+                            </div>
+                        </div>
+                        <h3 class="insight-title">The Role of Data in Business Strategy</h3>
+                        <p class="insight-description">
+                            Leverage data analytics to inform strategic business decisions and growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="why-choose-grid">
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data-Driven Insights</h3>
+                    <p>We leverage advanced analytics and comprehensive data to provide actionable insights that drive informed decision-making.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Team</h3>
+                    <p>Our team of experienced economists, analysts, and consultants bring diverse expertise across multiple industries and sectors.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovative Solutions</h3>
+                    <p>We develop creative and innovative approaches to complex economic and social challenges, delivering unique solutions.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Timely Delivery</h3>
+                    <p>We understand the importance of deadlines and ensure timely delivery of high-quality research and analysis.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client Partnership</h3>
+                    <p>We work closely with our clients as strategic partners, ensuring alignment with their goals and objectives.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Proven Results</h3>
+                    <p>Our track record speaks for itself with successful projects across various industries and measurable outcomes.</p>
                 </div>
             </div>
         </div>
@@ -204,21 +299,21 @@
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
                         <li><a href="#about">About Us</a></li>
-                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="services">Our Services</a></li>
                         <li><a href="#approach">Our Approach</a></li>
                         <li><a href="#insights">Insights</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h3 class="footer-title">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#services">Economic & Policy Research</a></li>
-                        <li><a href="#services">Market Analysis</a></li>
-                        <li><a href="#services">Social Impact Analysis</a></li>
-                        <li><a href="#services">Financial Analytics</a></li>
-                        <li><a href="#services">Business Planning</a></li>
+                        <li><a href="economic-research">Economic & Policy Research</a></li>
+                        <li><a href="market-analysis">Market Analysis</a></li>
+                        <li><a href="social-impact">Social Impact Analysis</a></li>
+                        <li><a href="financial-analytics">Financial Analytics</a></li>
+                        <li><a href="services">Business Planning</a></li>
                     </ul>
                 </div>
                 
