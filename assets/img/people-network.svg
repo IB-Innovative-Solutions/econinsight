@@ -1,0 +1,16 @@
+<svg width="120" height="100" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central node -->
+  <circle cx="60" cy="50" r="8" fill="#ff6b35"/>
+  
+  <!-- Connected nodes -->
+  <circle cx="30" cy="30" r="6" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="90" cy="30" r="6" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="30" cy="70" r="6" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="90" cy="70" r="6" fill="#ff6b35" opacity="0.8"/>
+  
+  <!-- Connection lines -->
+  <line x1="60" y1="50" x2="30" y2="30" stroke="#ff6b35" stroke-width="2" opacity="0.6"/>
+  <line x1="60" y1="50" x2="90" y2="30" stroke="#ff6b35" stroke-width="2" opacity="0.6"/>
+  <line x1="60" y1="50" x2="30" y2="70" stroke="#ff6b35" stroke-width="2" opacity="0.6"/>
+  <line x1="60" y1="50" x2="90" y2="70" stroke="#ff6b35" stroke-width="2" opacity="0.6"/>
+</svg>

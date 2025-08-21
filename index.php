@@ -39,6 +39,7 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <div class="hero-bg-pattern"></div>
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
@@ -46,11 +47,7 @@
                     <button class="cta-button">Get in Touch</button>
                 </div>
                 <div class="hero-graphic">
-                    <div class="hexagon-group">
-                        <div class="hexagon hexagon-orange"></div>
-                        <div class="hexagon hexagon-outline"></div>
-                        <div class="hexagon hexagon-outline"></div>
-                    </div>
+                    <img src="assets/img/hero-about.jpg" alt="EconInsight Professional Services" class="hero-image">
                 </div>
             </div>
         </div>
@@ -67,11 +64,7 @@
                     </p>
                 </div>
                 <div class="about-graphic">
-                    <div class="hexagon-group">
-                        <div class="hexagon hexagon-outline"></div>
-                        <div class="hexagon hexagon-outline"></div>
-                        <div class="hexagon hexagon-outline"></div>
-                    </div>
+                    <img src="assets/img/hero-about.jpg" alt="EconInsight Team and Services" class="about-image">
                 </div>
             </div>
             <div class="background-pattern"></div>
@@ -85,25 +78,25 @@
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-chart-bar"></i>
+                        <img src="assets/img/data-visualization.svg" alt="Economic Research" class="service-image">
                     </div>
                     <h3 class="service-title">Economic & Policy Research</h3>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-chart-pie"></i>
+                        <img src="assets/img/pie-chart.svg" alt="Market Analysis" class="service-image">
                     </div>
                     <h3 class="service-title">Market Analysis</h3>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-users"></i>
+                        <img src="assets/img/people-network.svg" alt="Social Impact" class="service-image">
                     </div>
                     <h3 class="service-title">Social Impact Analysis</h3>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
+                        <img src="assets/img/trend-line.svg" alt="Financial Analytics" class="service-image">
                     </div>
                     <h3 class="service-title">Financial Analytics & Business Planning</h3>
                 </div>
