@@ -3,7 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Analytics & Business Planning - EconInsight Consultancy</title>
+    <title>Financial Analytics & Business Planning - EconInsight Consultancy | Strategic Financial Insights</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Expert financial analytics and business planning services by EconInsight Consultancy. Transform your financial data into actionable insights and strategic business plans for sustainable growth.">
+    <meta name="keywords" content="financial analytics, business planning, financial modeling, performance analytics, investment analysis, budget planning, growth strategy, risk management">
+    <meta name="author" content="EconInsight Consultancy">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Financial Analytics & Business Planning - EconInsight Consultancy">
+    <meta property="og:description" content="Transform your financial data into actionable insights and strategic business plans for sustainable growth.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://econinsight.com/financial-analytics">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:site_name" content="EconInsight Consultancy">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Financial Analytics & Business Planning - EconInsight Consultancy">
+    <meta name="twitter:description" content="Transform your financial data into actionable insights and strategic business plans for sustainable growth.">
+    <meta name="twitter:image" content="assets/img/logo.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#ff6b35">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://econinsight.com/financial-analytics">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -19,18 +49,18 @@
                 <div class="header-actions">
                     <nav class="nav">
                         <ul class="nav-list">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/#about">About</a></li>
-                            <li class="dropdown">
-                                <a href="/services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/economic-research">Economic Research</a></li>
-                                    <li><a href="/market-analysis">Market Analysis</a></li>
-                                    <li><a href="/social-impact">Social Impact</a></li>
-                                    <li><a href="/financial-analytics">Financial Analytics</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/contact">Contact</a></li>
+                                                         <li><a href="index">Home</a></li>
+                             <li><a href="index#about">About</a></li>
+                             <li class="dropdown">
+                                 <a href="services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
+                                 <ul class="dropdown-menu">
+                                     <li><a href="economic-research">Economic Research</a></li>
+                                     <li><a href="market-analysis">Market Analysis</a></li>
+                                     <li><a href="social-impact">Social Impact</a></li>
+                                     <li><a href="financial-analytics">Financial Analytics</a></li>
+                                 </ul>
+                             </li>
+                             <li><a href="contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="search-icon">
@@ -53,7 +83,7 @@
                 <div class="service-hero-text">
                     <h1 class="service-hero-title">Financial Analytics & Business Planning</h1>
                     <p class="service-hero-subtitle">Transform your financial data into actionable insights and strategic business plans for sustainable growth.</p>
-                    <a href="/contact" class="service-hero-cta">Get Started</a>
+                                         <a href="contact" class="service-hero-cta">Get Started</a>
                 </div>
                 <div class="service-hero-image">
                     <img src="assets/img/side-view-businesswoman-showing-analytical-charts-her-male-coworker.jpg" alt="Financial Analytics" class="service-hero-img">
@@ -66,7 +96,7 @@
     <section class="service-overview">
         <div class="container">
             <div class="service-overview-content">
-                <h2 class="section-title">What We Do</h2>
+                <h2 class="section-title text-center">What We Do</h2>
                 <p class="service-overview-description">
                     Our financial analytics and business planning services help organizations make data-driven financial decisions. 
                     We provide comprehensive financial modeling, forecasting, and strategic planning to optimize performance and drive growth.
@@ -92,7 +122,7 @@
     <!-- Service Features -->
     <section class="service-features-section">
         <div class="container">
-            <h2 class="section-title">Our Expertise</h2>
+            <h2 class="section-title text-center">Our Expertise</h2>
             <div class="service-features-grid">
                 <div class="service-feature-card">
                     <div class="feature-icon">
@@ -145,7 +175,7 @@
         <div class="container">
             <div class="case-study-content">
                 <div class="case-study-text">
-                    <h2 class="section-title">Case Study: Manufacturing Company Turnaround</h2>
+                    <h2 class="section-title text-center">Case Study: Manufacturing Company Turnaround</h2>
                     <p class="case-study-description">
                         We provided comprehensive financial analytics and business planning for a struggling manufacturing company. 
                         Our analysis included cost optimization, revenue enhancement strategies, and financial restructuring, 
@@ -176,7 +206,7 @@
     <!-- Process Section -->
     <section class="process-section">
         <div class="container">
-            <h2 class="section-title">Our Financial Analysis Process</h2>
+            <h2 class="section-title text-center">Our Financial Analysis Process</h2>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">01</div>
@@ -208,7 +238,7 @@
             <div class="cta-content">
                 <h2>Ready to Optimize Your Financial Performance?</h2>
                 <p>Let's discuss how our financial analytics and business planning can drive your organization's success.</p>
-                <a href="/contact" class="cta-button">Contact Us Today</a>
+                                 <a href="contact" class="cta-button">Contact Us Today</a>
             </div>
         </div>
     </section>
@@ -235,19 +265,19 @@
                 <div class="footer-section">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/#about">About Us</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                                                 <li><a href="index">Home</a></li>
+                         <li><a href="index#about">About Us</a></li>
+                         <li><a href="services">Services</a></li>
+                         <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3 class="footer-title">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="/economic-research">Economic Research</a></li>
-                        <li><a href="/market-analysis">Market Analysis</a></li>
-                        <li><a href="/social-impact">Social Impact</a></li>
-                        <li><a href="/financial-analytics">Financial Analytics</a></li>
+                                                 <li><a href="economic-research">Economic Research</a></li>
+                         <li><a href="market-analysis">Market Analysis</a></li>
+                         <li><a href="social-impact">Social Impact</a></li>
+                         <li><a href="financial-analytics">Financial Analytics</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

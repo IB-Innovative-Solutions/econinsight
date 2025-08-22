@@ -97,7 +97,7 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2 class="section-title">About Us</h2>
+                    <h2 class="section-title text-center">About Us</h2>
                     <p class="about-description">
                         EconInsight is a research consultancy that specializes in simplifying complex economic and social challenges. We empower organizations with data-driven insights and strategic frameworks to make informed decisions in an ever-evolving landscape.
                     </p>
@@ -113,7 +113,7 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2 class="section-title text-center">Our Services</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
@@ -146,7 +146,7 @@
     <!-- Approach Section -->
     <section id="approach" class="approach">
         <div class="container">
-            <h2 class="section-title">Our Approach</h2>
+            <h2 class="section-title text-center">Our Approach</h2>
             <p class="approach-description">
                 We combine structured, evidence-based methodologies with strategic frameworks to deliver actionable insights. Our approach is rooted in rigorous analysis and practical application, ensuring that our recommendations drive real-world impact.
             </p>
@@ -156,7 +156,7 @@
     <!-- Insights Section -->
     <section class="insights">
         <div class="container">
-            <h2 class="section-title">Insights</h2>
+            <h2 class="section-title text-center">Insights</h2>
             <div class="insights-content">
                 <div class="insights-image">
                     <img src="assets/img/office-scene-close-up.jpg" alt="EconInsight Team Working on Insights" class="insights-img">
@@ -228,7 +228,7 @@
     <!-- Why Choose Us Section -->
     <section class="why-choose-section">
         <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
+            <h2 class="section-title text-center">Why Choose Us</h2>
             <div class="why-choose-grid">
                 <div class="why-choose-card">
                     <div class="why-choose-icon">

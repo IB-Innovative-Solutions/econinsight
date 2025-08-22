@@ -3,7 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Impact Analysis - EconInsight Consultancy</title>
+    <title>Social Impact Analysis - EconInsight Consultancy | Impact Measurement & Evaluation</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Comprehensive social impact analysis services by EconInsight Consultancy. Measure and optimize the social impact of your programs with data-driven evaluation and assessment.">
+    <meta name="keywords" content="social impact analysis, impact measurement, program evaluation, stakeholder analysis, community engagement, performance tracking, optimization strategies">
+    <meta name="author" content="EconInsight Consultancy">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Social Impact Analysis - EconInsight Consultancy">
+    <meta property="og:description" content="Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://econinsight.com/social-impact">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:site_name" content="EconInsight Consultancy">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Social Impact Analysis - EconInsight Consultancy">
+    <meta name="twitter:description" content="Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.">
+    <meta name="twitter:image" content="assets/img/logo.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#ff6b35">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://econinsight.com/social-impact">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -19,18 +49,18 @@
                 <div class="header-actions">
                     <nav class="nav">
                         <ul class="nav-list">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/#about">About</a></li>
-                            <li class="dropdown">
-                                <a href="/services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="/economic-research">Economic Research</a></li>
-                                    <li><a href="/market-analysis">Market Analysis</a></li>
-                                    <li><a href="/social-impact">Social Impact</a></li>
-                                    <li><a href="/financial-analytics">Financial Analytics</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/contact">Contact</a></li>
+                                                         <li><a href="index">Home</a></li>
+                             <li><a href="index#about">About</a></li>
+                             <li class="dropdown">
+                                 <a href="services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
+                                 <ul class="dropdown-menu">
+                                     <li><a href="economic-research">Economic Research</a></li>
+                                     <li><a href="market-analysis">Market Analysis</a></li>
+                                     <li><a href="social-impact">Social Impact</a></li>
+                                     <li><a href="financial-analytics">Financial Analytics</a></li>
+                                 </ul>
+                             </li>
+                             <li><a href="contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="search-icon">
@@ -53,7 +83,7 @@
                 <div class="service-hero-text">
                     <h1 class="service-hero-title">Social Impact Analysis</h1>
                     <p class="service-hero-subtitle">Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.</p>
-                    <a href="/contact" class="service-hero-cta">Get Started</a>
+                                         <a href="contact" class="service-hero-cta">Get Started</a>
                 </div>
                 <div class="service-hero-image">
                     <img src="assets/img/office-scene-close-up.jpg" alt="Social Impact Analysis" class="service-hero-img">
@@ -66,7 +96,7 @@
     <section class="service-overview">
         <div class="container">
             <div class="service-overview-content">
-                <h2 class="section-title">What We Do</h2>
+                <h2 class="section-title text-center">What We Do</h2>
                 <p class="service-overview-description">
                     Our social impact analysis services help organizations understand and maximize their contribution to society. 
                     We provide comprehensive evaluation frameworks to measure outcomes and optimize social programs for maximum effectiveness.
@@ -92,7 +122,7 @@
     <!-- Service Features -->
     <section class="service-features-section">
         <div class="container">
-            <h2 class="section-title">Our Expertise</h2>
+            <h2 class="section-title text-center">Our Expertise</h2>
             <div class="service-features-grid">
                 <div class="service-feature-card">
                     <div class="feature-icon">
@@ -145,7 +175,7 @@
         <div class="container">
             <div class="case-study-content">
                 <div class="case-study-text">
-                    <h2 class="section-title">Case Study: Education Program Impact</h2>
+                    <h2 class="section-title text-center">Case Study: Education Program Impact</h2>
                     <p class="case-study-description">
                         We evaluated the social impact of a large-scale education initiative serving underserved communities. 
                         Our analysis included student outcomes, community engagement, and long-term social benefits, 
@@ -176,7 +206,7 @@
     <!-- Process Section -->
     <section class="process-section">
         <div class="container">
-            <h2 class="section-title">Our Impact Analysis Process</h2>
+            <h2 class="section-title text-center">Our Impact Analysis Process</h2>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">01</div>
@@ -208,7 +238,7 @@
             <div class="cta-content">
                 <h2>Ready to Measure Your Social Impact?</h2>
                 <p>Let's discuss how our social impact analysis can help maximize your organization's positive influence.</p>
-                <a href="/contact" class="cta-button">Contact Us Today</a>
+                                 <a href="contact" class="cta-button">Contact Us Today</a>
             </div>
         </div>
     </section>
@@ -235,19 +265,19 @@
                 <div class="footer-section">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/#about">About Us</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                                                 <li><a href="index">Home</a></li>
+                         <li><a href="index#about">About Us</a></li>
+                         <li><a href="services">Services</a></li>
+                         <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3 class="footer-title">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="/economic-research">Economic Research</a></li>
-                        <li><a href="/market-analysis">Market Analysis</a></li>
-                        <li><a href="/social-impact">Social Impact</a></li>
-                        <li><a href="/financial-analytics">Financial Analytics</a></li>
+                                                 <li><a href="economic-research">Economic Research</a></li>
+                         <li><a href="market-analysis">Market Analysis</a></li>
+                         <li><a href="social-impact">Social Impact</a></li>
+                         <li><a href="financial-analytics">Financial Analytics</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

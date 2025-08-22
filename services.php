@@ -49,10 +49,10 @@
                 <div class="header-actions">
                     <nav class="nav">
                         <ul class="nav-list">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/#about">About</a></li>
-                            <li><a href="/services" class="active">Services</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                                                         <li><a href="index">Home</a></li>
+                             <li><a href="index#about">About</a></li>
+                             <li><a href="services" class="active">Services</a></li>
+                             <li><a href="contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="search-icon">
@@ -82,7 +82,7 @@
     <section class="services-overview">
         <div class="container">
             <div class="services-intro">
-                <h2 class="section-title">What We Offer</h2>
+                <h2 class="section-title text-center">What We Offer</h2>
                 <p class="services-description">
                     At EconInsight, we specialize in transforming complex economic and social challenges into clear, actionable insights. 
                     Our comprehensive suite of services is designed to empower organizations with the data-driven intelligence they need 
@@ -119,7 +119,7 @@
                             <p>Advanced econometric modeling and forecasting</p>
                         </div>
                     </div>
-                    <a href="/contact" class="service-cta">Get Started</a>
+                                         <a href="contact" class="service-cta">Get Started</a>
                 </div>
                 <div class="service-detail-image">
                     <img src="assets/img/data-visualization.svg" alt="Economic Research" class="service-detail-img">
@@ -158,7 +158,7 @@
                             <p>Competitor analysis and strategic positioning</p>
                         </div>
                     </div>
-                    <a href="/contact" class="service-cta">Learn More</a>
+                                         <a href="contact" class="service-cta">Learn More</a>
                 </div>
             </div>
         </div>
@@ -191,7 +191,7 @@
                             <p>Ongoing monitoring and evaluation frameworks</p>
                         </div>
                     </div>
-                    <a href="/contact" class="service-cta">Explore Impact</a>
+                                         <a href="contact" class="service-cta">Explore Impact</a>
                 </div>
                 <div class="service-detail-image">
                     <img src="assets/img/people-network.svg" alt="Social Impact Analysis" class="service-detail-img">
@@ -230,7 +230,7 @@
                             <p>Long-term business strategy and roadmap development</p>
                         </div>
                     </div>
-                    <a href="/contact" class="service-cta">Start Planning</a>
+                                         <a href="contact" class="service-cta">Start Planning</a>
                 </div>
             </div>
         </div>
@@ -239,7 +239,7 @@
     <!-- Process Section -->
     <section class="process-section">
         <div class="container">
-            <h2 class="section-title">Our Process</h2>
+            <h2 class="section-title text-center">Our Process</h2>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">01</div>
@@ -271,7 +271,7 @@
             <div class="cta-content">
                 <h2>Ready to Get Started?</h2>
                 <p>Let's discuss how our services can help your organization achieve its goals.</p>
-                <a href="/contact" class="cta-button">Contact Us Today</a>
+                                 <a href="contact" class="cta-button">Contact Us Today</a>
             </div>
         </div>
     </section>
@@ -298,19 +298,19 @@
                 <div class="footer-section">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/#about">About Us</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                                                 <li><a href="index">Home</a></li>
+                         <li><a href="index#about">About Us</a></li>
+                         <li><a href="services">Services</a></li>
+                         <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3 class="footer-title">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="/services#economic-research">Economic Research</a></li>
-                        <li><a href="/services#market-analysis">Market Analysis</a></li>
-                        <li><a href="/services#social-impact">Social Impact</a></li>
-                        <li><a href="/services#financial-analytics">Financial Analytics</a></li>
+                                                 <li><a href="economic-research">Economic Research</a></li>
+                         <li><a href="market-analysis">Market Analysis</a></li>
+                         <li><a href="social-impact">Social Impact</a></li>
+                         <li><a href="financial-analytics">Financial Analytics</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">

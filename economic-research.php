@@ -3,7 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economic & Policy Research - EconInsight Consultancy</title>
+    <title>Economic & Policy Research - EconInsight Consultancy | Expert Economic Analysis</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Expert economic and policy research services by EconInsight Consultancy. Transform complex economic challenges into clear, actionable insights with comprehensive research and analysis.">
+    <meta name="keywords" content="economic research, policy research, economic analysis, market dynamics, policy implications, economic trends, econometric modeling, data analytics">
+    <meta name="author" content="EconInsight Consultancy">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Economic & Policy Research - EconInsight Consultancy">
+    <meta property="og:description" content="Transform complex economic challenges into clear, actionable insights with our comprehensive research and analysis services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://econinsight.com/economic-research">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:site_name" content="EconInsight Consultancy">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Economic & Policy Research - EconInsight Consultancy">
+    <meta name="twitter:description" content="Transform complex economic challenges into clear, actionable insights with our comprehensive research and analysis services.">
+    <meta name="twitter:image" content="assets/img/logo.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#ff6b35">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://econinsight.com/economic-research">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -66,7 +96,7 @@
     <section class="service-overview">
         <div class="container">
             <div class="service-overview-content">
-                <h2 class="section-title">What We Do</h2>
+                <h2 class="section-title text-center">What We Do</h2>
                 <p class="service-overview-description">
                     Our economic research services provide deep insights into market dynamics, policy implications, and economic trends. 
                     We combine rigorous analytical methodologies with real-world applications to deliver actionable recommendations that 
@@ -93,7 +123,7 @@
     <!-- Service Features -->
     <section class="service-features-section">
         <div class="container">
-            <h2 class="section-title">Our Expertise</h2>
+            <h2 class="section-title text-center">Our Expertise</h2>
             <div class="service-features-grid">
                 <div class="service-feature-card">
                     <div class="feature-icon">
@@ -146,7 +176,7 @@
         <div class="container">
             <div class="case-study-content">
                 <div class="case-study-text">
-                    <h2 class="section-title">Case Study: Regional Economic Impact Analysis</h2>
+                    <h2 class="section-title text-center">Case Study: Regional Economic Impact Analysis</h2>
                     <p class="case-study-description">
                         We conducted a comprehensive economic impact analysis for a major infrastructure project, 
                         evaluating its effects on employment, GDP, and regional development. Our research helped 
@@ -177,7 +207,7 @@
     <!-- Process Section -->
     <section class="process-section">
         <div class="container">
-            <h2 class="section-title">Our Research Process</h2>
+            <h2 class="section-title text-center">Our Research Process</h2>
             <div class="process-steps">
                 <div class="process-step">
                     <div class="step-number">01</div>

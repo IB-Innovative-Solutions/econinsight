@@ -97,7 +97,7 @@
         <div class="container">
             <div class="contact-content">
                 <div class="contact-info">
-                    <h2 class="section-title">Contact Information</h2>
+                    <h2 class="section-title text-center">Contact Information</h2>
                     <div class="contact-details">
                         <div class="contact-item">
                             <div class="contact-icon">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div class="contact-form-container">
-                    <h2 class="section-title">Send Us a Message</h2>
+                    <h2 class="section-title text-center">Send Us a Message</h2>
                     <form class="contact-form" action="process_contact.php" method="POST">
                         <div class="form-row">
                             <div class="form-group">
@@ -204,7 +204,7 @@
     <!-- Map Section -->
     <section class="map-section">
         <div class="container">
-            <h2 class="section-title">Find Us</h2>
+            <h2 class="section-title text-center">Find Us</h2>
             <div class="map-container">
                 <div class="map-placeholder">
                     <i class="fas fa-map-marked-alt"></i>
