@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Impact Analysis - EconInsight Consultancy | Impact Measurement & Evaluation</title>
+    <title>Social Impact Analysis - EconInsight Consultancy | Impact Evaluation</title>
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="Comprehensive social impact analysis services by EconInsight Consultancy. Measure and optimize the social impact of your programs with data-driven evaluation and assessment.">
@@ -34,6 +34,12 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://econinsight.com/social-impact">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">

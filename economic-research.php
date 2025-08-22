@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Economic & Policy Research - EconInsight Consultancy | Expert Economic Analysis</title>
+    <title>Economic Research - EconInsight Consultancy | Expert Analysis</title>
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="Expert economic and policy research services by EconInsight Consultancy. Transform complex economic challenges into clear, actionable insights with comprehensive research and analysis.">
@@ -34,6 +34,12 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://econinsight.com/economic-research">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/logo.png">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">

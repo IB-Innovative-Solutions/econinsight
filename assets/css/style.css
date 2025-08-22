@@ -10,6 +10,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fafafa;
+    padding-top: 100px;
 }
 
 .container {
@@ -1526,13 +1527,14 @@ body {
     
     .nav {
         position: fixed;
-        top: 80px;
+        top: 100px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: calc(100vh - 100px);
         background: white;
         transition: left 0.3s ease;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 999;
     }
     
     .nav.active {
@@ -1542,8 +1544,9 @@ body {
     .nav-list {
         flex-direction: column;
         gap: 0;
-        padding: 40px 20px;
+        padding: 20px;
         align-items: flex-start;
+        margin-top: 20px;
     }
     
     .dropdown-menu {
@@ -1555,24 +1558,27 @@ body {
         background: transparent;
         padding: 0;
         margin-left: 20px;
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
     
     .dropdown-menu a {
-        padding: 10px 0;
-        border-bottom: 1px solid #eee;
+        padding: 8px 0;
+        border-bottom: 1px solid #f0f0f0;
+        font-size: 16px;
+        font-weight: 500;
     }
     
     .nav-list li {
-        border-bottom: 1px solid #eee;
         width: 100%;
     }
     
     .nav-list a {
         display: block;
-        padding: 20px 0;
+        padding: 15px 0;
         font-size: 18px;
         font-weight: 600;
+        border-bottom: 1px solid #f0f0f0;
     }
     
     .mobile-menu-toggle {
