@@ -250,74 +250,9 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="assets/img/logo.png" alt="EconInsight Logo" class="logo-image">
-                    </div>
-                    <p class="footer-description">
-                        Simplifying complexity through data-driven insights and strategic frameworks. 
-                        Empowering organizations to make informed decisions.
-                    </p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-section">
-                    <h3 class="footer-title">Quick Links</h3>
-                    <ul class="footer-links">
-                                                 <li><a href="index">Home</a></li>
-                         <li><a href="index#about">About Us</a></li>
-                         <li><a href="services">Services</a></li>
-                         <li><a href="contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3 class="footer-title">Services</h3>
-                    <ul class="footer-links">
-                                                 <li><a href="economic-research">Economic Research</a></li>
-                         <li><a href="market-analysis">Market Analysis</a></li>
-                         <li><a href="social-impact">Social Impact</a></li>
-                         <li><a href="financial-analytics">Financial Analytics</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3 class="footer-title">Contact Info</h3>
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>123 Business District, EC 12345</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+1 (555) 123-4567</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>info@econinsight.com</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2024 EconInsight Consultancy. All rights reserved.</p>
-                    <div class="footer-bottom-links">
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Terms of Service</a>
-                        <a href="#">Cookie Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+<?php
+include "footer.php";
+?>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

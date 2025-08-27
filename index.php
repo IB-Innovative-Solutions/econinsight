@@ -33,7 +33,7 @@
     <meta name="theme-color" content="#ff6b35">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://econinsight.com">
+    <link rel="canonical" href="https://econinsight.co.za">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/logo.png">
@@ -50,7 +50,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <img src="assets/img/logo.png" alt="EconInsight Logo" class="logo-image">
+                    <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
                 </div>
                 <div class="header-actions">
                     <nav class="nav">
@@ -102,15 +102,16 @@
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
+                <div class="about-graphic">
+                    <img src="assets/img/office-scene-close-up.jpg" alt="EconInsight Team and Services" class="about-image">
+                </div>
                 <div class="about-text">
                     <h2 class="section-title text-center">About Us</h2>
                     <p class="about-description">
                         EconInsight is a research consultancy that specializes in simplifying complex economic and social challenges. We empower organizations with data-driven insights and strategic frameworks to make informed decisions in an ever-evolving landscape.
                     </p>
                 </div>
-                <div class="about-graphic">
-                    <img src="assets/img/office-scene-close-up.jpg" alt="EconInsight Team and Services" class="about-image">
-                </div>
+                
             </div>
             <div class="background-pattern"></div>
         </div>
@@ -281,84 +282,9 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-logo">
-                        <img src="assets/img/logo.png" alt="EconInsight Logo" class="logo-image">
-                    </div>
-                    <p class="footer-description">
-                        We simplify complexity through data-driven insights and strategic frameworks, empowering organizations to make informed decisions in an ever-evolving landscape.
-                    </p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-section">
-                    <h3 class="footer-title">Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="services">Our Services</a></li>
-                        <li><a href="#approach">Our Approach</a></li>
-                        <li><a href="#insights">Insights</a></li>
-                        <li><a href="contact">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3 class="footer-title">Services</h3>
-                    <ul class="footer-links">
-                        <li><a href="economic-research">Economic & Policy Research</a></li>
-                        <li><a href="market-analysis">Market Analysis</a></li>
-                        <li><a href="social-impact">Social Impact Analysis</a></li>
-                        <li><a href="financial-analytics">Financial Analytics</a></li>
-                        <li><a href="services">Business Planning</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-section">
-                    <h3 class="footer-title">Contact Info</h3>
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>123 Business District, Suite 456<br>New York, NY 10001</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+1 (555) 123-4567</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>info@econinsight.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-clock"></i>
-                            <span>Mon - Fri: 9:00 AM - 6:00 PM</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <p class="footer-text">&copy; 2024 EconInsight Consultancy. All rights reserved.</p>
-                    <div class="footer-bottom-links">
-                        <a href="#privacy">Privacy Policy</a>
-                        <a href="#terms">Terms of Service</a>
-                        <a href="#cookies">Cookie Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="assets/js/script.js"></script>
+<?php
+include "footer.php";
+?>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
