@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #fafafa;
+    background-color: #F8F6F2;
     padding-top: 100px;
 }
 
@@ -21,14 +21,20 @@ body {
 
 /* Header Styles */
 .header {
-    background: white;
-    padding: 20px 0;
+    background: #F8F6F2;
+    height: 100px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.header .container {
+    width: 100%;
 }
 
 .header-content {
@@ -41,13 +47,26 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.logo:hover {
+    background-color: rgba(255, 174, 77, 0.1);
 }
 
 .logo-image {
     width: auto;
-    height: 60px;
+    height: 70px;
     object-fit: contain;
     background: transparent;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    transition: transform 0.3s ease;
+}
+
+.logo-image:hover {
+    transform: scale(1.05);
 }
 
 .logo-text {
@@ -85,7 +104,7 @@ body {
 }
 
 .nav-list a:hover {
-    color: #ff6b35;
+    color: #FFAE4D;
 }
 
 /* Dropdown Styles */
@@ -145,7 +164,7 @@ body {
 
 .dropdown-menu a:hover {
     background-color: #f8f9fa;
-    color: #ff6b35;
+    color: #FFAE4D;
 }
 
 .search-icon {
@@ -157,7 +176,7 @@ body {
 }
 
 .search-icon:hover {
-    color: #ff6b35;
+    color: #FFAE4D;
 }
 
 .mobile-menu-toggle {
@@ -189,8 +208,8 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 120px 0 80px;
-    background: white;
+    padding: 50px 0 80px;
+    background: linear-gradient(135deg, #ffffff 0%, #F8F6F2 50%, #f5f5f5 100%);
     position: relative;
     overflow: hidden;
 }
@@ -225,7 +244,7 @@ body {
 }
 
 .cta-button {
-    background: #ff6b35;
+    background: linear-gradient(135deg, #FFAE4D 0%, #ff9f3d 50%, #ff8c2e 100%);
     color: white;
     border: none;
     padding: 15px 30px;
@@ -233,15 +252,18 @@ body {
     font-weight: 600;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
+    box-shadow: 0 4px 15px rgba(255, 174, 77, 0.3);
 }
 
 .cta-button:hover {
-    background: #e55a2b;
+    background: linear-gradient(135deg, #ff8c2e 0%, #ff9f3d 50%, #FFAE4D 100%);
     color: white;
     text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 174, 77, 0.4);
 }
 
 .hero-graphic {
@@ -268,7 +290,7 @@ body {
 .about {
     padding: 80px 0;
     position: relative;
-    background: white;
+    background: linear-gradient(135deg, #ffffff 0%, #F8F6F2 50%, #f9f9f9 100%);
 }
 
 .about-content {
@@ -333,7 +355,7 @@ body {
 /* Services Section */
 .services {
     padding: 80px 0;
-    background: #f8f9fa;
+    background: linear-gradient(135deg, #f8f9fa 0%, #F8F6F2 50%, #ffffff 100%);
 }
 
 .services-grid {
@@ -344,12 +366,13 @@ body {
 }
 
 .service-card {
-    background: white;
+    background: linear-gradient(135deg, #ffffff 0%, #fafafa 50%, #f5f5f5 100%);
     padding: 40px 30px;
     border-radius: 12px;
     text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 174, 77, 0.1);
 }
 
 .service-card:hover {
@@ -459,7 +482,7 @@ body {
     position: absolute;
     width: 20px;
     height: 23px;
-    background: #ff6b35;
+    background: #FFAE4D;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -506,7 +529,7 @@ body {
 
 .insight-icon-combined i {
     font-size: 24px;
-    color: #ff6b35;
+    color: #FFAE4D;
 }
 
 .insight-title {
@@ -665,7 +688,7 @@ body {
 /* Contact Page Styles */
 .contact-hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #ff6b35 0%, #e55a2b 100%);
+    background: linear-gradient(135deg, #FFAE4D 0%, #FFAE4D 100%);
     color: white;
     text-align: center;
 }
@@ -733,6 +756,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    background: linear-gradient(135deg, #ffffff 0%, #fafafa 50%, #f5f5f5 100%);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 174, 77, 0.1);
+    height: fit-content;
 }
 
 .contact-item {
@@ -744,7 +773,7 @@ body {
 .contact-icon {
     width: 50px;
     height: 50px;
-    background: #ff6b35;
+    background: #FFAE4D;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -768,9 +797,12 @@ body {
 }
 
 .contact-form-container {
-    background: #f8f9fa;
+    background: linear-gradient(135deg, #ffffff 0%, #fafafa 50%, #f5f5f5 100%);
     padding: 40px;
     border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 174, 77, 0.1);
+    height: fit-content;
 }
 
 .contact-form {
@@ -810,11 +842,11 @@ body {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #ff6b35;
+    border-color: #FFAE4D;
 }
 
 .submit-btn {
-    background: #ff6b35;
+    background: #FFAE4D;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -827,7 +859,7 @@ body {
 }
 
 .submit-btn:hover {
-    background: #e55a2b;
+    background: #FFAE4D;
 }
 
 .map-section {
@@ -945,7 +977,7 @@ body {
 /* Services Page Styles */
 .services-hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #ff6b35 0%, #e55a2b 100%);
+    background: linear-gradient(135deg, #FFAE4D 0%, #FFAE4D 100%);
     color: white;
     text-align: center;
 }
@@ -1025,7 +1057,7 @@ body {
 }
 
 .feature i {
-    color: #ff6b35;
+    color: #FFAE4D;
     font-size: 20px;
     margin-top: 2px;
 }
@@ -1045,7 +1077,7 @@ body {
 
 .service-cta {
     display: inline-block;
-    background: #ff6b35;
+    background: #FFAE4D;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -1055,7 +1087,7 @@ body {
 }
 
 .service-cta:hover {
-    background: #e55a2b;
+    background: #FFAE4D;
 }
 
 .service-detail-image {
@@ -1091,7 +1123,7 @@ body {
 .step-number {
     width: 60px;
     height: 60px;
-    background: #ff6b35;
+    background: #FFAE4D;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -1116,7 +1148,7 @@ body {
 
 .services-cta {
     padding: 80px 0;
-    background: linear-gradient(135deg, #ff6b35 0%, #e55a2b 100%);
+    background: linear-gradient(135deg, #FFAE4D 0%, #FFAE4D 100%);
     color: white;
     text-align: center;
 }
@@ -1193,7 +1225,7 @@ body {
 
 .service-hero-cta {
     display: inline-block;
-    background: linear-gradient(45deg, #ff6b35, #ff8c42);
+    background: linear-gradient(45deg, #FFAE4D, #FFAE4D);
     color: white;
     padding: 18px 35px;
     border-radius: 50px;
@@ -1201,7 +1233,7 @@ body {
     font-weight: 600;
     font-size: 16px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 174, 77, 0.3);
     position: relative;
     overflow: hidden;
 }
@@ -1222,9 +1254,9 @@ body {
 }
 
 .service-hero-cta:hover {
-    background: linear-gradient(45deg, #e55a2b, #ff6b35);
+    background: linear-gradient(45deg, #FFAE4D, #FFAE4D);
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 8px 25px rgba(255, 174, 77, 0.4);
 }
 
 .service-hero-image {
@@ -1289,7 +1321,7 @@ body {
 .stat-number {
     font-size: 36px;
     font-weight: 700;
-    color: #ff6b35;
+    color: #FFAE4D;
     margin-bottom: 10px;
     display: block;
 }
@@ -1327,13 +1359,13 @@ body {
 .service-feature-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-    border-color: #ff6b35;
+    border-color: #FFAE4D;
 }
 
 .service-feature-card .feature-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(45deg, #ff6b35, #ff8c42);
+    background: linear-gradient(45deg, #FFAE4D, #FFAE4D);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1402,7 +1434,7 @@ body {
 .result-number {
     font-size: 32px;
     font-weight: 700;
-    color: #ff6b35;
+    color: #FFAE4D;
     margin-bottom: 8px;
     display: block;
 }
@@ -1457,13 +1489,13 @@ body {
 .process-step:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-    border-color: #ff6b35;
+    border-color: #FFAE4D;
 }
 
 .step-number {
     width: 60px;
     height: 60px;
-    background: linear-gradient(45deg, #ff6b35, #ff8c42);
+    background: linear-gradient(45deg, #FFAE4D, #FFAE4D);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1521,16 +1553,32 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     /* Header responsive */
+    .header {
+        height: 80px;
+    }
+    
+    .header-content {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .logo-image {
+        height: 50px;
+    }
+    
     .header-actions {
         gap: 15px;
+        order: 2;
+        width: 100%;
+        justify-content: flex-end;
     }
     
     .nav {
         position: fixed;
-        top: 100px;
+        top: 80px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 80px);
         background: white;
         transition: left 0.3s ease;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
@@ -1547,6 +1595,8 @@ body {
         padding: 20px;
         align-items: flex-start;
         margin-top: 20px;
+        background: white;
+        border-radius: 0 0 10px 10px;
     }
     
     .dropdown-menu {
@@ -1581,12 +1631,23 @@ body {
         border-bottom: 1px solid #f0f0f0;
     }
     
+    .nav {
+        display: none;
+    }
+    
+    .nav.active {
+        display: block;
+        left: 0;
+    }
+    
     .mobile-menu-toggle {
         display: flex;
+        z-index: 1001;
     }
     
     .search-icon {
         margin-left: 0;
+        font-size: 16px;
     }
     
     /* Main content responsive */
@@ -1655,8 +1716,164 @@ body {
     }
 }
 
+/* Extra small devices */
 @media (max-width: 480px) {
     /* Header responsive for small screens */
+    .header {
+        height: 70px;
+    }
+    
+    .logo-image {
+        height: 45px;
+    }
+    
+    .header-actions {
+        gap: 10px;
+    }
+    
+    .mobile-menu-toggle span {
+        width: 22px;
+        height: 2px;
+    }
+    
+    .nav-list {
+        padding: 15px;
+    }
+    
+    .nav-list a {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    
+    .dropdown-menu a {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+    
+    .search-icon {
+        font-size: 16px;
+    }
+    
+    /* Main content responsive */
+    .hero-title {
+        font-size: 28px;
+    }
+    
+    .section-title {
+        font-size: 24px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    /* Contact and Services page responsive */
+    .contact-content,
+    .service-detail-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-hero-title,
+    .services-hero-title {
+        font-size: 36px;
+    }
+    
+    .contact-hero-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .hero-stat {
+        min-width: auto;
+        padding: 15px 20px;
+    }
+    
+    .why-choose-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-detail-title {
+        font-size: 28px;
+    }
+    
+    /* Service pages responsive */
+    .service-hero-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .service-hero-text {
+        text-align: center;
+    }
+    
+    .service-hero-title {
+        font-size: 36px;
+    }
+    
+    .service-hero-subtitle {
+        font-size: 18px;
+    }
+    
+    .service-hero-image {
+        max-width: 100%;
+    }
+    
+    .service-hero-img {
+        height: 250px;
+    }
+    
+    .service-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .stat {
+        min-width: auto;
+    }
+    
+    .service-features-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .case-study-content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    .case-study-results {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .case-study-image {
+        max-width: 100%;
+    }
+    
+    .case-study-img {
+        height: 250px;
+    }
+    
+    .process-steps {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
     .header {
         padding: 15px 0;
     }

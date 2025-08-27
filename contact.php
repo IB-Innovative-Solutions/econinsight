@@ -102,6 +102,51 @@
     <section class="contact-section">
         <div class="container">
             <div class="contact-content">
+                <div class="contact-form-container">
+                    <h2 class="section-title text-center">Send Us a Message</h2>
+                    <form class="contact-form" action="process_contact.php" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service of Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="economic-research">Economic & Policy Research</option>
+                                <option value="market-analysis">Market Analysis</option>
+                                <option value="social-impact">Social Impact Analysis</option>
+                                <option value="financial-analytics">Financial Analytics & Business Planning</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project or how we can help..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
                 <div class="contact-info">
                     <h2 class="section-title text-center">Contact Information</h2>
                     <div class="contact-details">
@@ -157,51 +202,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="contact-form-container">
-                    <h2 class="section-title text-center">Send Us a Message</h2>
-                    <form class="contact-form" action="process_contact.php" method="POST">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="firstName">First Name *</label>
-                                <input type="text" id="firstName" name="firstName" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="lastName">Last Name *</label>
-                                <input type="text" id="lastName" name="lastName" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Email Address *</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="company">Company/Organization</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-                        <div class="form-group">
-                            <label for="service">Service of Interest</label>
-                            <select id="service" name="service">
-                                <option value="">Select a service</option>
-                                <option value="economic-research">Economic & Policy Research</option>
-                                <option value="market-analysis">Market Analysis</option>
-                                <option value="social-impact">Social Impact Analysis</option>
-                                <option value="financial-analytics">Financial Analytics & Business Planning</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project or how we can help..."></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
                 </div>
             </div>
         </div>
