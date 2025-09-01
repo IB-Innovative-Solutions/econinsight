@@ -13,8 +13,31 @@ include 'header.php';
     <section class="services-hero">
         <div class="container">
             <div class="services-hero-content">
-                <h1 class="services-hero-title">Our Services</h1>
-                <p class="services-hero-subtitle">Comprehensive economic analysis and strategic consulting to drive informed decision-making</p>
+                <div class="hero-text">
+                    <h1 class="services-hero-title">Our Services</h1>
+                    <p class="services-hero-subtitle">Comprehensive economic analysis and strategic consulting to drive informed decision-making</p>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Core Services</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-icons">
+                        <div class="floating-icon icon-1"><i class="fas fa-chart-line"></i></div>
+                        <div class="floating-icon icon-2"><i class="fas fa-analytics"></i></i></div>
+                        <div class="floating-icon icon-3"><i class="fas fa-lightbulb"></i></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

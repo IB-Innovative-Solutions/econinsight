@@ -52,7 +52,9 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
+                    <a href="index.php">
+                        <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
+                    </a>
                 </div>
                 <div class="header-actions">
                     <nav class="nav">

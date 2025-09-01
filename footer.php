@@ -4,7 +4,9 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
+                        <a href="index.php">
+                            <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
+                        </a>
                     </div>
                     <p class="footer-description">
                         We simplify complexity through data-driven insights and strategic frameworks, empowering organizations to make informed decisions in an ever-evolving landscape.
