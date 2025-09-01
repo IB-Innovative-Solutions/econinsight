@@ -1,78 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - EconInsight Consultancy | Expert Economic Insights</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Contact EconInsight Consultancy for expert economic research, market analysis, and strategic insights. Get in touch with our team of data-driven consultants today.">
-    <meta name="keywords" content="contact econinsight, economic consulting, market research contact, business intelligence services, data analytics consulting">
-    <meta name="author" content="EconInsight Consultancy">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Contact Us - EconInsight Consultancy">
-    <meta property="og:description" content="Contact EconInsight Consultancy for expert economic research, market analysis, and strategic insights. Get in touch with our team today.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://econinsight.com/contact">
-    <meta property="og:image" content="assets/img/logo.png">
-    <meta property="og:site_name" content="EconInsight Consultancy">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Contact Us - EconInsight Consultancy">
-    <meta name="twitter:description" content="Contact EconInsight Consultancy for expert economic research, market analysis, and strategic insights.">
-    <meta name="twitter:image" content="assets/img/logo.png">
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7 days">
-    <meta name="distribution" content="global">
-    <meta name="rating" content="general">
-    <meta name="theme-color" content="#ff6b35">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://econinsight.com/contact">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
-    <link rel="apple-touch-icon" href="assets/img/logo.png">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="EconInsight Logo" class="logo-image">
-                </div>
-                <div class="header-actions">
-                    <nav class="nav">
-                        <ul class="nav-list">
-                            <li><a href="index">Home</a></li>
-                            <li><a href="index#about">About</a></li>
-                            <li><a href="services">Services</a></li>
-                            <li><a href="contact" class="active">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="search-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="mobile-menu-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php
+$page_title = 'Contact Us - EconInsight Consultancy | Expert Economic Insights';
+$page_description = 'Contact EconInsight Consultancy for expert economic research, market analysis, and strategic insights. Get in touch with our team of data-driven consultants today.';
+$page_keywords = 'contact econinsight, economic consulting, market research contact, business intelligence services, data analytics consulting';
+$og_title = 'Contact Us - EconInsight Consultancy';
+$og_description = 'Contact EconInsight Consultancy for expert economic research, market analysis, and strategic insights. Get in touch with our team today.';
+$twitter_title = 'Contact Us - EconInsight Consultancy';
+$twitter_description = 'Contact EconInsight Consultancy for expert economic research, market analysis, and strategic insights.';
+include 'header.php';
+?>
 
     <!-- Contact Hero Section -->
     <section class="contact-hero">
@@ -83,15 +18,15 @@
                 <div class="contact-hero-stats">
                     <div class="hero-stat">
                         <div class="stat-number">500+</div>
-                        <div class="stat-label">Projects Completed</div>
+                        <div class="stat-label">Research Projects</div>
                     </div>
                     <div class="hero-stat">
                         <div class="stat-number">95%</div>
                         <div class="stat-label">Client Satisfaction</div>
                     </div>
                     <div class="hero-stat">
-                        <div class="stat-number">24/7</div>
-                        <div class="stat-label">Support Available</div>
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Policy Reports</div>
                     </div>
                 </div>
             </div>
@@ -156,7 +91,7 @@
                             </div>
                             <div class="contact-text">
                                 <h3>Office Address</h3>
-                                <p>123 Business District<br>Economic Center, EC 12345<br>United States</p>
+                                <p>207 Moore Lane<br>Waterkloof<br>Pretoria, Gauteng 0081<br>South Africa</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -165,8 +100,7 @@
                             </div>
                             <div class="contact-text">
                                 <h3>Phone</h3>
-                                <p>+1 (555) 123-4567</p>
-                                <p>+1 (555) 987-6543</p>
+                                <p>+27 60 319 4628</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -175,8 +109,7 @@
                             </div>
                             <div class="contact-text">
                                 <h3>Email</h3>
-                                <p>info@econinsight.com</p>
-                                <p>consulting@econinsight.com</p>
+                                <p>info@econinsight.co.za</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -185,8 +118,8 @@
                             </div>
                             <div class="contact-text">
                                 <h3>Business Hours</h3>
-                                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                                <p>Saturday: 10:00 AM - 2:00 PM</p>
+                                <p>Monday - Friday: 08:00 - 17:00</p>
+                                <p>Saturday: 09:00 - 13:00</p>
                                 <p>Sunday: Closed</p>
                             </div>
                         </div>
@@ -215,7 +148,7 @@
                 <div class="map-placeholder">
                     <i class="fas fa-map-marked-alt"></i>
                     <p>Interactive Map Coming Soon</p>
-                    <p>123 Business District, Economic Center, EC 12345</p>
+                    <p>207 Moore Lane, Waterkloof, Pretoria, Gauteng 0081, South Africa</p>
                 </div>
             </div>
         </div>
@@ -225,6 +158,8 @@
 include "footer.php";
 ?>
 
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/script.js"></script>
 </body>
 </html>

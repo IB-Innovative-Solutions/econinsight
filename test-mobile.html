@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Responsiveness Test - EconInsight</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center mb-4">Mobile Responsiveness Test</h1>
+                <p class="text-center">Resize your browser window to test mobile responsiveness</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Small Screen (Mobile)</h5>
+                        <p class="card-text">This column will be full width on mobile devices (col-12)</p>
+                        <div class="d-block d-md-none">
+                            <span class="badge bg-primary">Mobile View</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Medium Screen (Tablet)</h5>
+                        <p class="card-text">This column will be half width on tablets (col-md-6)</p>
+                        <div class="d-none d-md-block d-lg-none">
+                            <span class="badge bg-success">Tablet View</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-12 col-lg-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Large Screen (Desktop)</h5>
+                        <p class="card-text">This column will be one-third width on desktops (col-lg-4)</p>
+                        <div class="d-none d-lg-block">
+                            <span class="badge bg-info">Desktop View</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="alert alert-info">
+                    <h6>Bootstrap Grid System Test:</h6>
+                    <ul class="mb-0">
+                        <li><strong>xs (extra small):</strong> &lt; 576px - Single column layout</li>
+                        <li><strong>sm (small):</strong> ≥ 576px - Single column layout</li>
+                        <li><strong>md (medium):</strong> ≥ 768px - Two column layout</li>
+                        <li><strong>lg (large):</strong> ≥ 992px - Three column layout</li>
+                        <li><strong>xl (extra large):</strong> ≥ 1200px - Three column layout</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

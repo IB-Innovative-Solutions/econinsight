@@ -73,6 +73,42 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Services Carousel Enhancement
+    const servicesCarousel = document.getElementById('servicesCarousel');
+    if (servicesCarousel) {
+        // Initialize Bootstrap carousel with custom options
+        const carousel = new bootstrap.Carousel(servicesCarousel, {
+            interval: 6000, // Auto-play every 6 seconds (longer since fewer slides)
+            pause: 'hover', // Pause on hover
+            wrap: true, // Continuous loop
+            keyboard: true, // Keyboard navigation
+            touch: true // Touch/swipe support
+        });
+        
+        // Add smooth transitions
+        servicesCarousel.addEventListener('slide.bs.carousel', function (event) {
+            const activeItem = event.relatedTarget;
+            const nextItem = event.nextElementSibling;
+            
+            // Add fade effect
+            if (activeItem) activeItem.style.opacity = '0.7';
+            if (nextItem) nextItem.style.opacity = '1';
+        });
+        
+        // Pause carousel when not in viewport
+        const carouselObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    carousel.cycle(); // Resume auto-play
+                } else {
+                    carousel.pause(); // Pause when not visible
+                }
+            });
+        }, { threshold: 0.3 });
+        
+        carouselObserver.observe(servicesCarousel);
+    }
+
     // Add animation to service cards on scroll
     const observerOptions = {
         threshold: 0.1,

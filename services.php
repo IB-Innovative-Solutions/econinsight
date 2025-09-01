@@ -1,78 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services - EconInsight Consultancy | Economic Research</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Explore EconInsight Consultancy's comprehensive services including economic research, market analysis, social impact assessment, and financial analytics. Expert data-driven insights for informed decision-making.">
-    <meta name="keywords" content="economic research services, market analysis, social impact assessment, financial analytics, business intelligence, strategic consulting, data insights">
-    <meta name="author" content="EconInsight Consultancy">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Our Services - EconInsight Consultancy">
-    <meta property="og:description" content="Explore our comprehensive services including economic research, market analysis, social impact assessment, and financial analytics.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://econinsight.com/services">
-    <meta property="og:image" content="assets/img/logo.png">
-    <meta property="og:site_name" content="EconInsight Consultancy">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Our Services - EconInsight Consultancy">
-    <meta name="twitter:description" content="Explore our comprehensive services including economic research, market analysis, social impact assessment, and financial analytics.">
-    <meta name="twitter:image" content="assets/img/logo.png">
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7 days">
-    <meta name="distribution" content="global">
-    <meta name="rating" content="general">
-    <meta name="theme-color" content="#ff6b35">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://econinsight.com/services">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
-    <link rel="apple-touch-icon" href="assets/img/logo.png">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="EconInsight Logo" class="logo-image">
-                </div>
-                <div class="header-actions">
-                    <nav class="nav">
-                        <ul class="nav-list">
-                                                         <li><a href="index">Home</a></li>
-                             <li><a href="index#about">About</a></li>
-                             <li><a href="services" class="active">Services</a></li>
-                             <li><a href="contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="search-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="mobile-menu-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php
+$page_title = 'Our Services - EconInsight Consultancy | Economic Research';
+$page_description = 'Explore EconInsight Consultancy\'s comprehensive services including economic research, market analysis, social impact assessment, and financial analytics. Expert data-driven insights for informed decision-making.';
+$page_keywords = 'economic research services, market analysis, social impact assessment, financial analytics, business intelligence, strategic consulting, data insights';
+$og_title = 'Our Services - EconInsight Consultancy';
+$og_description = 'Explore our comprehensive services including economic research, market analysis, social impact assessment, and financial analytics.';
+$twitter_title = 'Our Services - EconInsight Consultancy';
+$twitter_description = 'Explore our comprehensive services including economic research, market analysis, social impact assessment, and financial analytics.';
+include 'header.php';
+?>
 
     <!-- Services Hero Section -->
     <section class="services-hero">
@@ -286,6 +221,8 @@
 include "footer.php";
 ?>
 
-    <script src="assets/js/script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

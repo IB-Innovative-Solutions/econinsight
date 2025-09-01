@@ -1,86 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Impact Analysis - EconInsight Consultancy | Impact Evaluation</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Comprehensive social impact analysis services by EconInsight Consultancy. Measure and optimize the social impact of your programs with data-driven evaluation and assessment.">
-    <meta name="keywords" content="social impact analysis, impact measurement, program evaluation, stakeholder analysis, community engagement, performance tracking, optimization strategies">
-    <meta name="author" content="EconInsight Consultancy">
-    <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Social Impact Analysis - EconInsight Consultancy">
-    <meta property="og:description" content="Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://econinsight.com/social-impact">
-    <meta property="og:image" content="assets/img/logo.png">
-    <meta property="og:site_name" content="EconInsight Consultancy">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Social Impact Analysis - EconInsight Consultancy">
-    <meta name="twitter:description" content="Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.">
-    <meta name="twitter:image" content="assets/img/logo.png">
-    
-    <!-- Additional SEO Meta Tags -->
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7 days">
-    <meta name="distribution" content="global">
-    <meta name="rating" content="general">
-    <meta name="theme-color" content="#ff6b35">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://econinsight.com/social-impact">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/img/logo.png">
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
-    <link rel="apple-touch-icon" href="assets/img/logo.png">
-    
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <img src="assets/img/logo.png" alt="EconInsight Logo" class="logo-image">
-                </div>
-                <div class="header-actions">
-                    <nav class="nav">
-                        <ul class="nav-list">
-                                                         <li><a href="index">Home</a></li>
-                             <li><a href="index#about">About</a></li>
-                             <li class="dropdown">
-                                 <a href="services" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
-                                 <ul class="dropdown-menu">
-                                     <li><a href="economic-research">Economic Research</a></li>
-                                     <li><a href="market-analysis">Market Analysis</a></li>
-                                     <li><a href="social-impact">Social Impact</a></li>
-                                     <li><a href="financial-analytics">Financial Analytics</a></li>
-                                 </ul>
-                             </li>
-                             <li><a href="contact">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="search-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <div class="mobile-menu-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php
+$page_title = 'Social Impact Analysis - EconInsight Consultancy | Impact Evaluation';
+$page_description = 'Comprehensive social impact analysis services by EconInsight Consultancy. Measure and optimize the social impact of your programs with data-driven evaluation and assessment.';
+$page_keywords = 'social impact analysis, impact measurement, program evaluation, stakeholder analysis, community engagement, performance tracking, optimization strategies';
+$og_title = 'Social Impact Analysis - EconInsight Consultancy';
+$og_description = 'Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.';
+$twitter_title = 'Social Impact Analysis - EconInsight Consultancy';
+$twitter_description = 'Measure and optimize the social impact of your programs and initiatives with comprehensive analysis and evaluation.';
+include 'header.php';
+?>
+
 
     <!-- Service Hero Section -->
     <section class="service-hero">
@@ -249,10 +177,12 @@
         </div>
     </section>
 
- <?php
+<?php
 include "footer.php";
 ?>
 
-    <script src="assets/js/script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
