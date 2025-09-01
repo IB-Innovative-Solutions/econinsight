@@ -30,7 +30,7 @@
     <meta name="revisit-after" content="7 days">
     <meta name="distribution" content="global">
     <meta name="rating" content="general">
-    <meta name="theme-color" content="#ff6b35">
+    <meta name="theme-color" content="#FFAE4D">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://econinsight.co.za">
@@ -52,25 +52,25 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <a href="index.php">
+                    <a href="index">
                         <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
                     </a>
                 </div>
                 <div class="header-actions">
                     <nav class="nav">
                         <ul class="nav-list">
-                            <li><a href="index.php#about">About</a></li>
+                            <li><a href="index#about">About</a></li>
                             <li class="dropdown">
-                                <a href="services.php" class="dropdown-toggle">Services</a>
+                                <a href="services" class="dropdown-toggle">Services</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="economic-research.php">Economic Research</a></li>
-                                    <li><a href="market-analysis.php">Market Analysis</a></li>
-                                    <li><a href="social-impact.php">Social Impact</a></li>
-                                    <li><a href="financial-analytics.php">Financial Analytics</a></li>
+                                    <li><a href="economic-research">Economic Research</a></li>
+                                    <li><a href="market-analysis">Market Analysis</a></li>
+                                    <li><a href="social-impact">Social Impact</a></li>
+                                    <li><a href="financial-analytics">Financial Analytics</a></li>
                                 </ul>
                             </li>
-                            <li><a href="index.php#approach">Approach</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="index#approach">Approach</a></li>
+                            <li><a href="contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="search-icon">

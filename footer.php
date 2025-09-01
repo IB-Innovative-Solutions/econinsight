@@ -4,8 +4,8 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <a href="index.php">
-                            <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
+                        <a href="index">
+                            <img src="assets/img/econinsight_logo_White.png" alt="EconInsight Logo" class="logo-image">
                         </a>
                     </div>
                     <p class="footer-description">
@@ -22,11 +22,11 @@
                 <div class="footer-section">
                     <h3 class="footer-title">Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="index.php#about">About Us</a></li>
-                        <li><a href="services.php">Our Services</a></li>
-                        <li><a href="index.php#approach">Our Approach</a></li>
-                        <li><a href="index.php#insights">Insights</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="index#about">About Us</a></li>
+                        <li><a href="services">Our Services</a></li>
+                        <li><a href="index#approach">Our Approach</a></li>
+                        <li><a href="index#insights">Insights</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </div>
                 

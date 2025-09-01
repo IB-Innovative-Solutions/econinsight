@@ -47,7 +47,238 @@ document.addEventListener('DOMContentLoaded', function() {
     const ctaButton = document.querySelector('.cta-button');
     if (ctaButton) {
         ctaButton.addEventListener('click', function() {
-            // You can add contact form functionality here
+            // Contact Form Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            handleFormSubmission();
+        });
+        
+        // Real-time validation
+        const inputs = contactForm.querySelectorAll('input, textarea, select');
+        inputs.forEach(input => {
+            input.addEventListener('blur', function() {
+                validateField(this);
+            });
+            
+            input.addEventListener('input', function() {
+                clearFieldError(this);
+            });
+        });
+    }
+});
+
+function handleFormSubmission() {
+    const form = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formMessages = document.getElementById('form-messages');
+    const successMessage = document.getElementById('success-message');
+    const errorMessage = document.getElementById('error-message');
+    
+    // Clear previous messages
+    clearMessages();
+    
+    // Validate all fields
+    if (!validateForm()) {
+        return;
+    }
+    
+    // Show loading state
+    submitBtn.classList.add('loading');
+    
+    // Get form data
+    const formData = new FormData(form);
+    
+    // Send AJAX request
+    fetch('process_contact.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        submitBtn.classList.remove('loading');
+        
+        if (data.success) {
+            // Show success message
+            successMessage.textContent = data.message;
+            formMessages.style.display = 'block';
+            successMessage.style.display = 'block';
+            errorMessage.style.display = 'none';
+            
+            // Reset form
+            form.reset();
+            
+            // Clear all field states
+            clearAllFieldStates();
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                formMessages.style.display = 'none';
+            }, 5000);
+            
+        } else {
+            // Show error message
+            errorMessage.textContent = data.message;
+            formMessages.style.display = 'block';
+            errorMessage.style.display = 'block';
+            successMessage.style.display = 'none';
+            
+            // Show field-specific errors
+            if (data.errors) {
+                Object.keys(data.errors).forEach(fieldName => {
+                    const field = document.getElementById(fieldName);
+                    if (field) {
+                        showFieldError(field, data.errors[fieldName]);
+                    }
+                });
+            }
+        }
+    })
+    .catch(error => {
+        submitBtn.classList.remove('loading');
+        console.error('Error:', error);
+        
+        errorMessage.textContent = 'An error occurred. Please try again.';
+        formMessages.style.display = 'block';
+        errorMessage.style.display = 'block';
+        successMessage.style.display = 'none';
+    });
+}
+
+function validateForm() {
+    let isValid = true;
+    const requiredFields = ['firstName', 'lastName', 'email', 'message'];
+    
+    requiredFields.forEach(fieldName => {
+        const field = document.getElementById(fieldName);
+        if (field && !validateField(field)) {
+            isValid = false;
+        }
+    });
+    
+    // Validate phone if provided
+    const phoneField = document.getElementById('phone');
+    if (phoneField && phoneField.value.trim() && !validateField(phoneField)) {
+        isValid = false;
+    }
+    
+    return isValid;
+}
+
+function validateField(field) {
+    const value = field.value.trim();
+    const fieldName = field.name;
+    let isValid = true;
+    let errorMessage = '';
+    
+    // Remove previous error states
+    clearFieldError(field);
+    
+    // Required field validation
+    if (field.hasAttribute('required') && !value) {
+        isValid = false;
+        errorMessage = `${field.previousElementSibling.textContent.replace(' *', '')} is required`;
+    }
+    
+    // Field-specific validation
+    if (isValid && value) {
+        switch (fieldName) {
+            case 'firstName':
+            case 'lastName':
+                if (value.length < 2) {
+                    isValid = false;
+                    errorMessage = `${field.previousElementSibling.textContent.replace(' *', '')} must be at least 2 characters`;
+                }
+                break;
+                
+            case 'email':
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(value)) {
+                    isValid = false;
+                    errorMessage = 'Please enter a valid email address';
+                }
+                break;
+                
+            case 'phone':
+                const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,}$/;
+                if (!phoneRegex.test(value)) {
+                    isValid = false;
+                    errorMessage = 'Please enter a valid phone number';
+                }
+                break;
+                
+            case 'message':
+                if (value.length < 10) {
+                    isValid = false;
+                    errorMessage = 'Message must be at least 10 characters';
+                }
+                break;
+        }
+    }
+    
+    if (!isValid) {
+        showFieldError(field, errorMessage);
+    } else {
+        showFieldSuccess(field);
+    }
+    
+    return isValid;
+}
+
+function showFieldError(field, message) {
+    const errorSpan = document.getElementById(`${field.name}-error`);
+    if (errorSpan) {
+        errorSpan.textContent = message;
+        errorSpan.style.display = 'block';
+    }
+    
+    field.parentElement.classList.add('error');
+    field.parentElement.classList.remove('success');
+}
+
+function showFieldSuccess(field) {
+    const errorSpan = document.getElementById(`${field.name}-error`);
+    if (errorSpan) {
+        errorSpan.style.display = 'none';
+    }
+    
+    field.parentElement.classList.add('success');
+    field.parentElement.classList.remove('error');
+}
+
+function clearFieldError(field) {
+    const errorSpan = document.getElementById(`${field.name}-error`);
+    if (errorSpan) {
+        errorSpan.style.display = 'none';
+    }
+    
+    field.parentElement.classList.remove('error', 'success');
+}
+
+function clearAllFieldStates() {
+    const formGroups = document.querySelectorAll('.form-group');
+    formGroups.forEach(group => {
+        group.classList.remove('error', 'success');
+    });
+    
+    const errorSpans = document.querySelectorAll('.error-message');
+    errorSpans.forEach(span => {
+        span.style.display = 'none';
+    });
+}
+
+function clearMessages() {
+    const formMessages = document.getElementById('form-messages');
+    const successMessage = document.getElementById('success-message');
+    const errorMessage = document.getElementById('error-message');
+    
+    if (formMessages) formMessages.style.display = 'none';
+    if (successMessage) successMessage.style.display = 'none';
+    if (errorMessage) errorMessage.style.display = 'none';
+}
             alert('Thank you for your interest! Please contact us at info@econinsight.com');
         });
     }

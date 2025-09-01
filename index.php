@@ -55,10 +55,13 @@ include 'header.php';
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 
                 <!-- Carousel Items -->
                 <div class="carousel-inner">
+                    <!-- Slide 1: Economic Research + Market Analysis (Desktop) -->
                     <div class="carousel-item active">
                         <div class="services-pair">
                             <div class="service-card">
@@ -67,20 +70,21 @@ include 'header.php';
                                 </div>
                                 <h3 class="service-title">Economic & Policy Research</h3>
                                 <p class="service-description">Comprehensive economic research and policy analysis to drive informed decision-making.</p>
-                                <a href="economic-research.php" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                <a href="economic-research" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                             </div>
                             
-                            <div class="service-card">
+                            <div class="service-card desktop-only">
                                 <div class="service-icon">
                                     <img src="assets/img/pie-chart.svg" alt="Market Analysis" class="service-image">
                                 </div>
                                 <h3 class="service-title">Market Analysis</h3>
                                 <p class="service-description">In-depth market research and competitive analysis for strategic business decisions.</p>
-                                <a href="market-analysis.php" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                <a href="market-analysis" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                     
+                    <!-- Slide 2: Social Impact Analysis -->
                     <div class="carousel-item">
                         <div class="services-pair">
                             <div class="service-card">
@@ -89,16 +93,35 @@ include 'header.php';
                                 </div>
                                 <h3 class="service-title">Social Impact Analysis</h3>
                                 <p class="service-description">Measure and optimize the social impact of your programs and initiatives.</p>
-                                <a href="social-impact.php" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                <a href="social-impact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                             </div>
-                            
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3: Financial Analytics -->
+                    <div class="carousel-item">
+                        <div class="services-pair">
                             <div class="service-card">
                                 <div class="service-icon">
                                     <img src="assets/img/trend-line.svg" alt="Financial Analytics" class="service-image">
                                 </div>
                                 <h3 class="service-title">Financial Analytics & Business Planning</h3>
                                 <p class="service-description">Transform financial data into strategic insights for sustainable growth.</p>
-                                <a href="financial-analytics.php" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                                <a href="financial-analytics" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4: Market Analysis -->
+                    <div class="carousel-item">
+                        <div class="services-pair">
+                            <div class="service-card">
+                                <div class="service-icon">
+                                    <img src="assets/img/pie-chart.svg" alt="Market Analysis" class="service-image">
+                                </div>
+                                <h3 class="service-title">Market Analysis</h3>
+                                <p class="service-description">In-depth market research and competitive analysis for strategic business decisions.</p>
+                                <a href="market-analysis" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

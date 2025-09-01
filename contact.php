@@ -39,25 +39,29 @@ include 'header.php';
             <div class="contact-content">
                 <div class="contact-form-container">
                     <h2 class="section-title text-center">Send Us a Message</h2>
-                    <form class="contact-form" action="process_contact.php" method="POST">
+                    <form class="contact-form" id="contactForm" novalidate>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="firstName">First Name *</label>
                                 <input type="text" id="firstName" name="firstName" required>
+                                <span class="error-message" id="firstName-error"></span>
                             </div>
                             <div class="form-group">
                                 <label for="lastName">Last Name *</label>
                                 <input type="text" id="lastName" name="lastName" required>
+                                <span class="error-message" id="lastName-error"></span>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="email">Email Address *</label>
                                 <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="email-error"></span>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
                                 <input type="tel" id="phone" name="phone">
+                                <span class="error-message" id="phone-error"></span>
                             </div>
                         </div>
                         <div class="form-group">
@@ -78,8 +82,21 @@ include 'header.php';
                         <div class="form-group">
                             <label for="message">Message *</label>
                             <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project or how we can help..."></textarea>
+                            <span class="error-message" id="message-error"></span>
                         </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
+                        
+                        <!-- Success/Error Messages -->
+                        <div id="form-messages" class="form-messages" style="display: none;">
+                            <div id="success-message" class="success-message"></div>
+                            <div id="error-message" class="error-message"></div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
                     </form>
                 </div>
                 <div class="contact-info">
