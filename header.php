@@ -53,7 +53,7 @@
             <div class="header-content">
                 <div class="logo">
                     <img src="assets/img/econinsight_logo.png" alt="EconInsight Logo" class="logo-image">
-      incr          </div>
+                </div>
                 <div class="header-actions">
                     <nav class="nav">
                         <ul class="nav-list">

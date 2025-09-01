@@ -31,11 +31,11 @@
                 <div class="footer-section">
                     <h3 class="footer-title">Services</h3>
                     <ul class="footer-links">
-                        <li><a href="economic-research.php">Economic & Policy Research</a></li>
-                        <li><a href="market-analysis.php">Market Analysis</a></li>
-                        <li><a href="social-impact.php">Social Impact Analysis</a></li>
-                        <li><a href="financial-analytics.php">Financial Analytics</a></li>
-                        <li><a href="services.php">Business Planning</a></li>
+                        <li><a href="economic-research">Economic & Policy Research</a></li>
+                        <li><a href="market-analysis">Market Analysis</a></li>
+                        <li><a href="social-impact">Social Impact Analysis</a></li>
+                        <li><a href="financial-analytics">Financial Analytics</a></li>
+                        <li><a href="services">Business Planning</a></li>
                     </ul>
                 </div>
                 

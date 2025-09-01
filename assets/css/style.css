@@ -1880,8 +1880,9 @@ body {
     }
     
     .header-content {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 15px;
+        align-items: center;
     }
     
     .logo-image {
@@ -1890,9 +1891,10 @@ body {
     
     .header-actions {
         gap: 15px;
-        order: 2;
-        width: 100%;
+        order: 0;
+        width: auto;
         justify-content: flex-end;
+        margin-left: auto;
     }
     
     .nav {
@@ -1964,11 +1966,19 @@ body {
     .mobile-menu-toggle {
         display: flex;
         z-index: 1001;
+        align-items: center;
     }
     
     .search-icon {
         margin-left: 0;
         font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
     }
     
     /* Main content responsive */
@@ -2047,6 +2057,10 @@ body {
     /* Header responsive for small screens */
     .header {
         height: 70px;
+    }
+    
+    .header-content {
+        gap: 10px;
     }
     
     .logo-image {
